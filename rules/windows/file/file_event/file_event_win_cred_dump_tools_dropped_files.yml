@@ -20,12 +20,12 @@ logsource:
 detection:
     selection:
         - TargetFilename|contains:
-              - '/fgdump-log'
-              - '/kirbi'
-              - '/pwdump'
-              - '/pwhashes'
-              - '/wce_ccache'
-              - '/wce_krbtkts'
+              - '\fgdump-log'
+              - '\kirbi'
+              - '\pwdump'
+              - '\pwhashes'
+              - '\wce_ccache'
+              - '\wce_krbtkts'
         - file.name:
               - 'cachedump.exe'
               - 'cachedump64.exe'
