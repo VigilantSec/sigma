@@ -19,13 +19,13 @@ logsource:
     product: windows
 detection:
     selection:
-        - file.name|startswith:
-              - 'fgdump-log'
-              - 'kirbi'
-              - 'pwdump'
-              - 'pwhashes'
-              - 'wce_ccache'
-              - 'wce_krbtkts'
+        - TargetFilename|contains:
+              - '/fgdump-log'
+              - '/kirbi'
+              - '/pwdump'
+              - '/pwhashes'
+              - '/wce_ccache'
+              - '/wce_krbtkts'
         - file.name:
               - 'cachedump.exe'
               - 'cachedump64.exe'
