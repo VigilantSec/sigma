@@ -46,13 +46,6 @@ detection:
               - '.xltm'
               - '.potm'
               - '.pptm'
-        - TargetFilename|contains:
-              - '.docm:Zone'
-              - '.dotm:Zone'
-              - '.xlsm:Zone'
-              - '.xltm:Zone'
-              - '.potm:Zone'
-              - '.pptm:Zone'
     condition: all of selection_*
 falsepositives:
     - Legitimate macro files downloaded from the internet
