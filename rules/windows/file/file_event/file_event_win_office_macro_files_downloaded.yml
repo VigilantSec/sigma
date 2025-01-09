@@ -39,7 +39,7 @@ detection:
             - '\vivaldi.exe'
             - '\whale.exe'
     selection_ext:
-        - TargetFilename|endswith:
+        - file.name|endswith:
               - '.docm'
               - '.dotm'
               - '.xlsm'
