@@ -15,11 +15,11 @@ logsource:
     product: azure
     service: signinlogs
 detection:
-    selection:
+    selection_main:
         ResultType: 50053
     selection_interactive:
         logon.interactive: true
-    condition: selection
+    condition: all of selection_*
 falsepositives:
     - Unknown
 level: medium

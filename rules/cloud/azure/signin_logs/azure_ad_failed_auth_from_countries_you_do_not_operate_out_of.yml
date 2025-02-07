@@ -16,13 +16,13 @@ logsource:
     product: azure
     service: signinlogs
 detection:
-    selection:
+    selection_main:
         Status: 'Success'
     selection_interactive:
         logon.interactive: true
     selection1:
         Location|contains: '<Countries you DO operate out of e,g GB, use OR for multiple>'
-    condition: not selection and not selection1
+    condition: not selection_main and selection_interactive and not selection1
 falsepositives:
     - If this was approved by System Administrator.
 level: low
