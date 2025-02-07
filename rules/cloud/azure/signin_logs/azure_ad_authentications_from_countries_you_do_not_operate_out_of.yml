@@ -11,12 +11,15 @@ tags:
     - attack.credential-access
     - attack.t1078.004
     - attack.t1110
+    - vigilant.passthrough
 logsource:
     product: azure
     service: signinlogs
 detection:
     selection:
         Status: 'Success'
+    selection_interactive:
+        logon.interactive: true
     filter:
         Location|contains: '<Countries you DO operate out of e,g GB, use OR for multiple>'
     condition: selection and not filter
