@@ -13,6 +13,8 @@ tags:
     - attack.t1113
     - detection.threat-hunting
     - vigilant.exception.list.platform
+    - vigilant.exception.list.application
+    - vigilant.exception.item.platform
 logsource:
     product: windows
     category: image_load
