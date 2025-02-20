@@ -92,7 +92,7 @@ detection:
             - 'WWAHost.exe'
     filter_main_generic:
         # Note: It is recommended to use a more robust filter instead of this generic one, to avoid false negatives.
-        TargetFilename|contains:
+        TargetFilename|startswith:
             # - '\SystemRoot\System32\'
             - 'C:\$WINDOWS.~BT\'
             - 'C:\$WinREAgent\'
@@ -102,21 +102,21 @@ detection:
             - 'C:\Windows\WinSxS\'
             - 'C:\Windows\uus\'
     filter_main_svchost:
-        Image|endswith: 'C:\Windows\system32\svchost.exe'
-        TargetFilename|contains: 'C:\Program Files\WindowsApps\'
+        Image: 'C:\Windows\system32\svchost.exe'
+        TargetFilename|startswith: 'C:\Program Files\WindowsApps\'
     filter_main_wuauclt:
-        Image|endswith: 'C:\Windows\System32\wuauclt.exe'
+        Image: 'C:\Windows\System32\wuauclt.exe'
     filter_main_explorer:
-        TargetFilename|endswith: 'C:\Windows\explorer.exe'
+        TargetFilename: 'C:\Windows\explorer.exe'
     filter_main_msiexec:
         # This filter handles system processes who are updated/installed using misexec.
-        Image|endswith: 'C:\WINDOWS\system32\msiexec.exe'
+        Image: 'C:\WINDOWS\system32\msiexec.exe'
         # Add more processes if you find them or simply filter msiexec on its own. If the list grows big
-        TargetFilename|endswith:
+        TargetFilename:
             - 'C:\Program Files\PowerShell\7\pwsh.exe'
             - 'C:\Program Files\PowerShell\7-preview\pwsh.exe'
     filter_main_healtray:
-        TargetFilename|contains: 'C:\Windows\System32\SecurityHealth\'
+        TargetFilename|startswith: 'C:\Windows\System32\SecurityHealth\'
         TargetFilename|endswith: '\SecurityHealthSystray.exe'
         Image|endswith: '\SecurityHealthSetup.exe'
     condition: selection and not 1 of filter_main_*
