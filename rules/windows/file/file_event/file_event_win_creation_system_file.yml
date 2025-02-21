@@ -119,6 +119,8 @@ detection:
         file.directory|startswith: 'C:\Windows\System32\SecurityHealth\'
         file.name: 'SecurityHealthSystray.exe'
         Image|endswith: '\SecurityHealthSetup.exe'
+    filter_main_event_action_deletion:
+        event.type: 'deletion'
     condition: selection and not 1 of filter_main_*
 falsepositives:
     - System processes copied outside their default folders for testing purposes
