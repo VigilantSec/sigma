@@ -33,5 +33,5 @@ detection:
             - '.dsk'
     condition: selection
 falsepositives:
-    - Legitimate usage
+    - Legitime usage
 level: medium
