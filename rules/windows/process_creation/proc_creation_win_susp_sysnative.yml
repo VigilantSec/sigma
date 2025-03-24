@@ -11,7 +11,7 @@ tags:
     - attack.defense-evasion
     - attack.privilege-escalation
     - attack.t1055
-    - vigilant.noisy    
+    - vigilant.noisy
     - vigilant.disabled
 logsource:
     category: process_creation
