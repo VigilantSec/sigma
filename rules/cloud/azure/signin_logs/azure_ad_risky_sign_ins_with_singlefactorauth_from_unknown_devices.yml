@@ -16,7 +16,7 @@ detection:
     selection:
         Status: 'Success'
         AuthenticationRequirement: 'singleFactorAuthentication'
-        DeviceDetail.trusttype: ''
+        DeviceDetail.trusttype: null
         RiskState: 'atRisk'
     condition: selection
 falsepositives:
