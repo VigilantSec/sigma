@@ -3993,3 +3993,17 @@ https://www.gradenegger.eu/en/details-of-the-event-with-id-53-of-the-source-micr
 https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks#anonymous-ip-address
 https://github.com/GhostPack/SharpDPAPI
 https://web.archive.org/web/20230329155141/https://blog.menasec.net/2019/03/threat-hunting-26-remote-windows.html
+https://www.virustotal.com/gui/file/14d886517fff2cc8955844b252c985ab59f2f95b2849002778f03a8f07eb8aef
+https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks#azure-ad-threat-intelligence-user
+https://twitter.com/TheDFIRReport/status/1482078434327244805
+https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-rprn/d42db7d5-f141-4466-8f47-0a4be14e2fc1
+https://thedfirreport.com/2024/04/29/from-icedid-to-dagon-locker-ransomware-in-29-days/
+https://learn.microsoft.com/en-us/iis/manage/provisioning-and-managing-iis/configure-logging-in-iis
+https://research.checkpoint.com/2024/raspberry-robin-keeps-riding-the-wave-of-endless-1-days/
+https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-srvs/accf23b0-0f57-441c-9185-43041f1b0ee9
+https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/deployment/deploy-appcontrol-policies-using-group-policy
+https://localtonet.com/documents/supported-tunnels
+https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks#atypical-travel
+https://ss64.com/nt/set.html
+https://web.archive.org/web/20160727113019/https://answers.microsoft.com/en-us/protect/forum/mse-protect_scanning/microsoft-antimalware-has-removed-history-of/f15af6c9-01a9-4065-8c6c-3f2bdc7de45e
+https://blog.morphisec.com/vmware-identity-manager-attack-backdoor
