@@ -17,8 +17,8 @@ detection:
     selection:
         AuthenticationRequirement: singleFactorAuthentication
         ResultType: 0
-        NetworkLocationDetails: '[]'
-        DeviceDetail.deviceId: ''
+        NetworkLocationDetailsLength: 0
+        DeviceDetail.deviceId: null
     condition: selection
 falsepositives:
     - Unknown
