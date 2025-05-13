@@ -10,6 +10,8 @@ modified: 2024-08-29
 tags:
     - attack.discovery
     - attack.t1016
+    - vigilant.exception.item.application
+    - vigilant.exception.item.platform
 logsource:
     product: macos
     category: process_creation
