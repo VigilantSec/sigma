@@ -13,6 +13,8 @@ date: 2024-01-02
 tags:
     - attack.discovery
     - attack.t1518.001
+    - vigilant.exception.item.platform
+    - vigilant.exception.item.application
 logsource:
     product: macos
     category: process_creation
