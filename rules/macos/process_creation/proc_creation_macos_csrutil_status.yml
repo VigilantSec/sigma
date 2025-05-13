@@ -15,6 +15,7 @@ tags:
     - attack.t1518.001
     - vigilant.exception.item.platform
     - vigilant.exception.item.application
+    - vigilant.disabled
 logsource:
     product: macos
     category: process_creation
