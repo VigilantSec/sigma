@@ -24,7 +24,9 @@ detection:
     selection:
         Image|endswith: '/csrutil'
         CommandLine|contains: 'status'
-    condition: selection
+    filter_crowdstrike:
+        event.module: 'crowdstrike'
+    condition: selection and not filter_crowdstrike
 falsepositives:
     - Legitimate administration activities
 level: low
