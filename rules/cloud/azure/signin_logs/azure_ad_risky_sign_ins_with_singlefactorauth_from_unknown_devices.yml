@@ -10,7 +10,7 @@ tags:
     - attack.defense-evasion
     - attack.t1078
     - vigilant.alerting.high_risk
-    - vigilant.alerting.authentication
+    - vigilant.alerting.initial_access
 logsource:
     product: azure
     service: signinlogs

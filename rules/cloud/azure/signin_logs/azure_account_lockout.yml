@@ -11,7 +11,7 @@ tags:
     - attack.credential-access
     - attack.t1110
     - vigilant.alerting.high_risk
-    - vigilant.alerting.authentication
+    - vigilant.alerting.initial_access
 logsource:
     product: azure
     service: signinlogs

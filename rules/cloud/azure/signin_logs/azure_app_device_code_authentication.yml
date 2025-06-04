@@ -16,7 +16,7 @@ tags:
     - attack.privilege-escalation
     - attack.initial-access
     - vigilant.alerting.high_risk
-    - vigilant.alerting.authentication
+    - vigilant.alerting.initial_access
 logsource:
     product: azure
     service: signinlogs
