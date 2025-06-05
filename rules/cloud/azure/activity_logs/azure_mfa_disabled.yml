@@ -9,6 +9,8 @@ date: 2022-02-08
 tags:
     - attack.persistence
     - attack.t1556
+    - vigilant.alerting.persistence
+    - vigilant.alerting.high_risk
 logsource:
     product: azure
     service: activitylogs
