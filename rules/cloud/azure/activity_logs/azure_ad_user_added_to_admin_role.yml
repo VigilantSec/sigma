@@ -13,7 +13,7 @@ tags:
     - attack.t1098.003
     - attack.t1078
     - vigilant.alerting.sensitive_environment_changes
-    - vigilant.alerting.high_risk
+    - vigilant.alerting.passthrough
 logsource:
     product: azure
     service: activitylogs
