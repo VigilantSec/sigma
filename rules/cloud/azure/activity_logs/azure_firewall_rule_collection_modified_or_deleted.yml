@@ -12,7 +12,7 @@ tags:
     - attack.defense-evasion
     - attack.t1562.004
     - vigilant.alerting.sensitive_environment_changes
-    - vigilant.alerting.high_risk
+    - vigilant.alerting.passthrough
 logsource:
     product: azure
     service: activitylogs
