@@ -4011,3 +4011,17 @@ https://www.virustotal.com/gui/file/6f0f20da34396166df352bf301b3c59ef42b0bc67f52
 https://learn.microsoft.com/en-us/dotnet/framework/tools/installutil-exe-installer-tool
 https://research.nccgroup.com/2022/07/13/climbing-mount-everest-black-byte-bytes-back/
 https://web.archive.org/web/20230329153811/https://blog.menasec.net/2019/02/threat-huting-10-impacketsecretdump.html
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arithmetic_operators?view=powershell-5.1
+https://www.anyviewer.com/help/remote-technical-support.html
+https://www.virustotal.com/gui/search/behaviour_network%253A*.miningocean.org/files
+https://cloud.google.com/logging/docs/audit/understanding-audit-logs
+https://www.microsoft.com/en-us/security/blog/2024/05/15/threat-actors-misusing-quick-assist-in-social-engineering-attacks-leading-to-ransomware/
+https://github.com/EvotecIT/TheDashboard/blob/481a9ce8f82f2fd55fe65220ee6486bae6df0c9d/Examples/RunReports/PingCastle.ps1
+https://github.com/pr0xylife/Pikabot/blob/main/Pikabot_22.12.2023.txt
+https://any.run/report/6eea2773c1b4b5c6fb7c142933e220c96f9a4ec89055bf0cf54accdcde7df535/a407f006-ee45-420d-b576-f259094df091
+https://docs.oracle.com/cd/E19683-01/816-4883/6mb2joatd/index.html
+https://github.com/sadshade/veeam-creds/blob/6010eaf31ba41011b58d6af3950cffbf6f5cea32/Veeam-Get-Creds.ps1
+https://www.atomicredteam.io/atomic-red-team/atomics/T1562.002#atomic-test-8---modify-event-log-channel-access-permissions-via-registry---powershell
+https://strontic.github.io/xcyclopedia/library/mode.com-59D1ED51ACB8C3D50F1306FD75F20E99.html
+https://www.elastic.co/guide/en/security/current/potential-non-standard-port-ssh-connection.html
+https://web.archive.org/web/20230420013146/http://security-research.dyndns.org/pub/slides/FIRST2017/FIRST-2017_Tom-Ueltschi_Sysmon_FINAL_notes.pdf
