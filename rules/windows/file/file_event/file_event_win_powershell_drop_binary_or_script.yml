@@ -10,6 +10,7 @@ modified: 2025-07-04
 tags:
     - attack.persistence
     - vigilant.exception.list.platform
+    - vigilant.disabled
 logsource:
     product: windows
     category: file_event

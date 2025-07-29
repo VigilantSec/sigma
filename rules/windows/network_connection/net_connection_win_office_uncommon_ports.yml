@@ -10,6 +10,7 @@ modified: 2024-07-02
 tags:
     - attack.defense-evasion
     - attack.command-and-control
+    - vigilant.disabled
 logsource:
     category: network_connection
     product: windows
