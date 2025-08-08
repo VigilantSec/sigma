@@ -9,6 +9,7 @@ date: 2022-06-02
 tags:
     - attack.t1552
     - attack.credential-access
+    - vigilant.disabled
 logsource:
     product: azure
     service: auditlogs
