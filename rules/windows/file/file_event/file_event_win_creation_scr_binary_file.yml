@@ -18,6 +18,7 @@ logsource:
 detection:
     selection:
         TargetFilename|endswith: '.scr'
+        eventName: 'creation'
     filter_generic:
         Image|endswith:
             - '\Kindle.exe'
