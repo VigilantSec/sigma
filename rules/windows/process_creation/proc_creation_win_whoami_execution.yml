@@ -13,6 +13,7 @@ tags:
     - attack.t1033
     - car.2016-03-001
     - vigilant.exception.list.application
+    - vigilant.disabled
 logsource:
     category: process_creation
     product: windows
