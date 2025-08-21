@@ -14,6 +14,7 @@ tags:
     - car.2016-03-001
     - vigilant.exception.list.application
     - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Windows Account or Group Discovery (089db1af-740d-4d84-9a5b-babd6de143b0)
 logsource:
     category: process_creation
     product: windows
