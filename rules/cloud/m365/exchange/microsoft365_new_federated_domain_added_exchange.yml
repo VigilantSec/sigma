@@ -16,6 +16,8 @@ date: 2022-02-08
 tags:
     - attack.persistence
     - attack.t1136.003
+    - vigilant.disabled
+    - DISABLED.NOTE - IN FAVOR OF [ELASTIC] New or Modified Federation Domain (684554fc-0777-47ce-8c9b-3d01f198d7f8)
 logsource:
     service: exchange
     product: m365
