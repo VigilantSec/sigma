@@ -17,6 +17,8 @@ tags:
     - attack.discovery
     - attack.credential-access
     - attack.impact
+    - vigilant.alerting.persistence
+    - vigilant.alerting.passthrough
 logsource:
     product: windows
     category: process_creation
