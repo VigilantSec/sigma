@@ -11,6 +11,8 @@ tags:
     - attack.persistence
     - attack.t1548
     - attack.t1556
+    - vigilant.disabled
+    - vigilant.review
 logsource:
     product: azure
     service: auditlogs

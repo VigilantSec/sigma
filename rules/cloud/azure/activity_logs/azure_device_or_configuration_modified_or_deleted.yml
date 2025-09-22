@@ -11,6 +11,7 @@ tags:
     - attack.impact
     - attack.t1485
     - attack.t1565.001
+    - vigilant.disabled
 logsource:
     product: azure
     service: activitylogs
