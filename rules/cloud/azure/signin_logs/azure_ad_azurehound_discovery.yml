@@ -10,6 +10,8 @@ tags:
     - attack.discovery
     - attack.t1087.004
     - attack.t1526
+    - vigilant.disabled
+    - DISABLED.NOTE - IN FAVOR OF [ELASTIC] BloodHound Suite User-Agents Detected (c28750fa-4092-11f0-aca6-f661ea17fbcd)
 logsource:
     product: azure
     service: signinlogs
