@@ -11,6 +11,8 @@ tags:
     - attack.impact
     - attack.t1485
     - attack.t1565.001
+    - vigilant.disabled
+    - DISABLED.NOTE Rule generates frequent hits and is not relevant for detections or triage
 logsource:
     product: azure
     service: activitylogs
