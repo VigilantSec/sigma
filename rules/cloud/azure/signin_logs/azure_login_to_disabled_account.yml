@@ -11,6 +11,7 @@ tags:
     - attack.initial-access
     - attack.t1078.004
     - vigilant.disabled
+    - DISABLED.NOTE Failed login attempts to disabled accounts are not relevant for triage.
 logsource:
     product: azure
     service: signinlogs
