@@ -12,6 +12,7 @@ tags:
     - attack.t1548
     - attack.t1556
     - vigilant.disabled
+    - DISABLED.NOTE - Rule captures a routine activity with not enough to differentiate it as suspicious. 
     - vigilant.review
 logsource:
     product: azure
