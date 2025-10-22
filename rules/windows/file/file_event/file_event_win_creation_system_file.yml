@@ -8,7 +8,7 @@ references:
     - Internal Research
 author: Sander Wiebing, Tim Shelton, Nasreddine Bencherchali (Nextron Systems)
 date: 2020-05-26
-modified: 2024-06-24
+modified: 2025-10-07
 tags:
     - attack.defense-evasion
     - attack.t1036.005
@@ -105,19 +105,29 @@ detection:
             - 'C:\Windows\WinSxS\'
             - 'C:\Windows\uus\'
     filter_main_svchost:
-        Image: 'C:\Windows\system32\svchost.exe'
-        file.directory|startswith: 'C:\Program Files\WindowsApps\'
+        Image:
+            - 'C:\Windows\system32\svchost.exe'
+            - 'C:\Windows\SysWOW64\svchost.exe'
+        file.directory|startswith:
+            - 'C:\Program Files\WindowsApps\'
+            - 'C:\Program Files (x86)\WindowsApps\'
+            - '\AppData\Local\Microsoft\WindowsApps\'
     filter_main_wuauclt:
-        Image: 'C:\Windows\System32\wuauclt.exe'
+        Image:
+            - 'C:\Windows\System32\wuauclt.exe'
+            - 'C:\Windows\SysWOW64\wuauclt.exe'
     filter_main_explorer:
-        TargetFilename: 'C:\Windows\explorer.exe'
+        file.directory: 'C:\Windows\explorer.exe'
     filter_main_msiexec:
         # This filter handles system processes who are updated/installed using misexec.
-        Image: 'C:\WINDOWS\system32\msiexec.exe'
+        Image:
+            - 'C:\WINDOWS\system32\msiexec.exe'
+            - 'C:\WINDOWS\SysWOW64\msiexec.exe'
         # Add more processes if you find them or simply filter msiexec on its own. If the list grows big
-        TargetFilename:
+        file.directory|startswith:
             - 'C:\Program Files\PowerShell\7\pwsh.exe'
             - 'C:\Program Files\PowerShell\7-preview\pwsh.exe'
+            - 'C:\Program Files\WindowsApps\Microsoft.PowerShellPreview\'
     filter_main_healtray:
         file.directory|startswith: 'C:\Windows\System32\SecurityHealth\'
         file.name: 'SecurityHealthSystray.exe'
