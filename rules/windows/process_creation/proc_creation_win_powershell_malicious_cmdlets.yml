@@ -42,6 +42,8 @@ tags:
     - attack.t1069.002
     - attack.t1069
     - attack.t1059.001
+    - vigilant.alerting.passthrough
+    - vigilant.alerting.initial_access
 logsource:
     category: process_creation
     product: windows
