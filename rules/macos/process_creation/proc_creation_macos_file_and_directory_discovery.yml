@@ -11,6 +11,7 @@ tags:
     - attack.discovery
     - attack.t1083
     - vigilant.exception.item.application
+    - vigilant.disabled
 logsource:
     category: process_creation
     product: macos
