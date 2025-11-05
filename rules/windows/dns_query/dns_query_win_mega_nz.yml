@@ -13,6 +13,8 @@ modified: 2023-09-18
 tags:
     - attack.exfiltration
     - attack.t1567.002
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.passthrough
 logsource:
     product: windows
     category: dns_query
