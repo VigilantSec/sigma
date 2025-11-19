@@ -17,6 +17,8 @@ date: 2024-11-01
 tags:
     - attack.execution
     - attack.t1059.001
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.passthrough
 logsource:
     product: windows
     category: registry_set

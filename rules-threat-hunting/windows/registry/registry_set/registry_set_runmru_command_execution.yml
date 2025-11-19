@@ -16,6 +16,8 @@ date: 2024-11-01
 tags:
     - detection.threat-hunting
     - attack.execution
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.high_risk
 logsource:
     product: windows
     category: registry_set
