@@ -13,6 +13,7 @@ modified: 2023-03-05
 tags:
     - attack.command-and-control
     - attack.t1219.002
+    - vigilant.disabled
 logsource:
     category: process_creation
     product: windows

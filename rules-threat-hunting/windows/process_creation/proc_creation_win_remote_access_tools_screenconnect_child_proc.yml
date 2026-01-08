@@ -18,6 +18,7 @@ tags:
     - attack.execution
     - detection.threat-hunting
     - vigilant.exception.list.application
+    - vigilant.disabled
 logsource:
     category: process_creation
     product: windows
