@@ -10,6 +10,7 @@ modified: 2023-02-03
 tags:
     - attack.defense-evasion
     - attack.t1218
+    - vigilant.disabled
 logsource:
     product: windows
     category: process_creation
