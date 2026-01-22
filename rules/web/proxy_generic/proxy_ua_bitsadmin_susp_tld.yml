@@ -27,6 +27,7 @@ detection:
             - '.org'
             - '.scdn.co' # spotify streaming
             - '.sfx.ms' # Microsoft domain, example request: https://oneclient.sfx.ms/PreSignInSettings/Prod/2022-08-15-21-xx-xx/PreSignInSettingsConfig.json
+            - '.tscdn.m365.static.microsoft' #Microsoft Office CDN https://learn.microsoft.com/en-us/windows/deployment/do/delivery-optimization-endpoints
     condition: selection and not falsepositives
 fields:
     - ClientIP
