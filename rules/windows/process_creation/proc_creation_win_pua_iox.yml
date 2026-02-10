@@ -1,4 +1,4 @@
-title: PUA- IOX Tunneling Tool Execution
+title: Proxy Tool - IOX Tunneling
 id: d7654f02-e04b-4934-9838-65c46f187ebc
 status: test
 description: Detects the use of IOX - a tool for port forwarding and intranet proxy purposes
@@ -10,6 +10,8 @@ modified: 2024-11-23
 tags:
     - attack.command-and-control
     - attack.t1090
+    - vigilant.pup
+    - vigilant.pup.proxy
 logsource:
     category: process_creation
     product: windows

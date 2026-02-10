@@ -18,6 +18,7 @@ tags:
     - attack.credential-access
     - attack.t1083
     - attack.t1552.001
+    - vigilant.disabled
 logsource:
     category: process_creation
     product: windows

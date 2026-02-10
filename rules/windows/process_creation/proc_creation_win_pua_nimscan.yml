@@ -1,4 +1,4 @@
-title: PUA - NimScan Execution
+title: Monitoring Tool - NimScan
 id: 4fd6b1c7-19b8-4488-97f6-00f0924991a3
 status: test
 description: |
@@ -13,6 +13,8 @@ date: 2025-02-05
 tags:
     - attack.discovery
     - attack.t1046
+    - vigilant.pup
+    - vigilant.pup.monitoring
 logsource:
     category: process_creation
     product: windows

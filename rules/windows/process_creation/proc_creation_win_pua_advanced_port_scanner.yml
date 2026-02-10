@@ -1,4 +1,4 @@
-title: PUA - Advanced Port Scanner Execution
+title: Monitoring Tool - Advanced Port Scanner
 id: 54773c5f-f1cc-4703-9126-2f797d96a69d
 status: test
 description: Detects the use of Advanced Port Scanner.
@@ -11,6 +11,8 @@ tags:
     - attack.discovery
     - attack.t1046
     - attack.t1135
+    - vigilant.pup
+    - vigilant.pup.monitoring
 logsource:
     category: process_creation
     product: windows

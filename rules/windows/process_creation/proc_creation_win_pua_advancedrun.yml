@@ -1,4 +1,4 @@
-title: PUA - AdvancedRun Execution
+title: Monitoring Tool - AdvancedRun
 id: d2b749ee-4225-417e-b20e-a8d2193cbb84
 related:
     - id: fa00b701-44c6-4679-994d-5a18afa8a707
@@ -20,6 +20,8 @@ tags:
     - attack.t1564.003
     - attack.t1134.002
     - attack.t1059.003
+    - vigilant.pup
+    - vigilant.pup.monitoring
 logsource:
     product: windows
     category: process_creation

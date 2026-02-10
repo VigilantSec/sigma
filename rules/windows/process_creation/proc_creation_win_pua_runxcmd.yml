@@ -1,4 +1,4 @@
-title: PUA - RunXCmd Execution
+title: Spyware Tool - RunXCmd
 id: 93199800-b52a-4dec-b762-75212c196542
 status: test
 description: Detects the use of the RunXCmd tool to execute commands with System or TrustedInstaller accounts
@@ -12,6 +12,8 @@ tags:
     - attack.execution
     - attack.t1569.002
     - attack.s0029
+    - vigilant.pup
+    - vigilant.pup.spyware
 logsource:
     category: process_creation
     product: windows

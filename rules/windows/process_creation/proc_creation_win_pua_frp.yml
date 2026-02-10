@@ -1,4 +1,4 @@
-title: PUA - Fast Reverse Proxy (FRP) Execution
+title: Proxy Tool - Fast Reverse Proxy
 id: 32410e29-5f94-4568-b6a3-d91a8adad863
 status: test
 description: Detects the use of Fast Reverse Proxy. frp is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the Internet.
@@ -11,6 +11,8 @@ modified: 2024-11-23
 tags:
     - attack.command-and-control
     - attack.t1090
+    - vigilant.pup
+    - vigilant.pup.proxy
 logsource:
     category: process_creation
     product: windows

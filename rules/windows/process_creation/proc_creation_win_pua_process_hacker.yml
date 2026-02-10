@@ -1,4 +1,4 @@
-title: PUA - Process Hacker Execution
+title: Spyware Tool - Process Hacken
 id: 811e0002-b13b-4a15-9d00-a613fce66e42
 related:
     - id: 5722dff1-4bdd-4949-86ab-fbaf707e767a
@@ -22,6 +22,8 @@ tags:
     - attack.t1622
     - attack.t1564
     - attack.t1543
+    - vigilant.pup
+    - vigilant.pup.spyware
 logsource:
     category: process_creation
     product: windows

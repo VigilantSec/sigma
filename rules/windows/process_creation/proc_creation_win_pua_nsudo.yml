@@ -1,4 +1,4 @@
-title: PUA - NSudo Execution
+title: Monitoring Tool - NSudo
 id: 771d1eb5-9587-4568-95fb-9ec44153a012
 status: test
 description: Detects the use of NSudo tool for command execution
@@ -12,6 +12,8 @@ tags:
     - attack.execution
     - attack.t1569.002
     - attack.s0029
+    - vigilant.pup
+    - vigilant.pup.monitoring
 logsource:
     category: process_creation
     product: windows

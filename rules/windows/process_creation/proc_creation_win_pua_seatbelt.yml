@@ -1,4 +1,4 @@
-title: PUA - Seatbelt Execution
+title: Monitoring Tool - Seatbelt
 id: 38646daa-e78f-4ace-9de0-55547b2d30da
 status: test
 description: Detects the execution of the PUA/Recon tool Seatbelt via PE information of command line parameters
@@ -13,6 +13,8 @@ tags:
     - attack.t1526
     - attack.t1087
     - attack.t1083
+    - vigilant.pup
+    - vigilant.monitoring
 logsource:
     category: process_creation
     product: windows

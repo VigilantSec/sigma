@@ -1,4 +1,4 @@
-title: PUA - RemCom Default Named Pipe
+title: Remote Access Tool - RemCom
 id: d36f87ea-c403-44d2-aa79-1a0ac7c24456
 related:
     - id: 9e77ed63-2ecf-4c7b-b09d-640834882028
@@ -16,6 +16,8 @@ tags:
     - attack.t1021.002
     - attack.execution
     - attack.t1569.002
+    - vigilant.pup
+    - vigilant.pup.rmm
 logsource:
     product: windows
     category: pipe_created

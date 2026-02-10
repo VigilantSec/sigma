@@ -1,4 +1,4 @@
-title: PUA - NirCmd Execution
+title: Monitoring Tool - NirCmd
 id: 4e2ed651-1906-4a59-a78a-18220fca1b22
 status: test
 description: Detects the use of NirCmd tool for command execution, which could be the result of legitimate administrative activity
@@ -13,6 +13,8 @@ tags:
     - attack.execution
     - attack.t1569.002
     - attack.s0029
+    - vigilant.pup
+    - vigilant.pup.monitoring
 logsource:
     category: process_creation
     product: windows

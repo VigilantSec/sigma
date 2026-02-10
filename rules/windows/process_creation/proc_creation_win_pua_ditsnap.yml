@@ -1,4 +1,4 @@
-title: PUA - DIT Snapshot Viewer
+title: Monitoring Tool - Ditsnap
 id: d3b70aad-097e-409c-9df2-450f80dc476b
 status: test
 description: Detects the use of Ditsnap tool, an inspection tool for Active Directory database, ntds.dit.
@@ -11,6 +11,8 @@ modified: 2023-02-21
 tags:
     - attack.credential-access
     - attack.t1003.003
+    - vigilant.pup
+    - vigilant.pup.monitoring
 logsource:
     category: process_creation
     product: windows
