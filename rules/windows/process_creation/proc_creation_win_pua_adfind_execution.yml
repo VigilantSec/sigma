@@ -13,6 +13,7 @@ date: 2025-02-26
 tags:
     - attack.discovery
     - attack.t1087.002
+    - vigilant.disabled
 logsource:
     product: windows
     category: process_creation

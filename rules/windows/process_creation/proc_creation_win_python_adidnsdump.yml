@@ -1,4 +1,4 @@
-title: PUA - Adidnsdump Execution
+title: Monitoring Tool - Adidnsdump
 id: 26d3f0a2-f514-4a3f-a8a7-e7e48a8d9160
 status: test
 description: |
@@ -12,6 +12,8 @@ modified: 2023-02-21
 tags:
     - attack.discovery
     - attack.t1018
+    - vigilant.pup
+    - vigilant.pup.monitoring
 logsource:
     category: process_creation
     product: windows

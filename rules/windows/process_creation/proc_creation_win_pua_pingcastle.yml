@@ -1,4 +1,4 @@
-title: PUA - PingCastle Execution
+title: Monitoring Tool - PingCastle
 id: b1cb4ab6-ac31-43f4-adf1-d9d08957419c
 related:
     - id: b37998de-a70b-4f33-b219-ec36bf433dc0
@@ -17,7 +17,9 @@ author: Nasreddine Bencherchali (Nextron Systems), frack113
 date: 2024-01-11
 tags:
     - attack.reconnaissance
-    - attack.t1595
+    - attack.t1595 
+    - vigilant.pup
+    - vigilant.monitoring
 logsource:
     category: process_creation
     product: windows

@@ -1,4 +1,4 @@
-title: PUA - NPS Tunneling Tool Execution
+title: Proxy Tool - NPS Tunneling
 id: 68d37776-61db-42f5-bf54-27e87072d17e
 status: test
 description: Detects the use of NPS, a port forwarding and intranet penetration proxy server
@@ -10,6 +10,8 @@ modified: 2024-11-23
 tags:
     - attack.command-and-control
     - attack.t1090
+    - vigilant.pup
+    - vigilant.pup.proxy
 logsource:
     category: process_creation
     product: windows

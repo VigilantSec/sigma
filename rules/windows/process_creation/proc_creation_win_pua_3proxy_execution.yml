@@ -1,4 +1,4 @@
-title: PUA - 3Proxy Execution
+title: Proxy Tool - 3Proxy
 id: f38a82d2-fba3-4781-b549-525efbec8506
 status: test
 description: Detects the use of 3proxy, a tiny free proxy server
@@ -11,6 +11,8 @@ modified: 2023-02-21
 tags:
     - attack.command-and-control
     - attack.t1572
+    - vigilant.pup
+    - vigilant.pup.proxy
 logsource:
     category: process_creation
     product: windows

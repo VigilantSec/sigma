@@ -1,4 +1,4 @@
-title: PUA - Nimgrab Execution
+title: Data Exfiltration Tool - Nimgrab
 id: 74a12f18-505c-4114-8d0b-8448dd5485c6
 status: test
 description: Detects the usage of nimgrab, a tool bundled with the Nim programming framework and used for downloading files.
@@ -10,6 +10,8 @@ modified: 2024-11-23
 tags:
     - attack.command-and-control
     - attack.t1105
+    - vigilant.pup
+    - vigilant.pup.exfiltration
 logsource:
     category: process_creation
     product: windows

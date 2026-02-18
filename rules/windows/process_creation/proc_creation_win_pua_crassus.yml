@@ -1,4 +1,4 @@
-title: PUA - Crassus Execution
+title: Spyware Tool - Crassus
 id: 2c32b543-1058-4808-91c6-5b31b8bed6c5
 status: test
 description: Detects Crassus, a Windows privilege escalation discovery tool, based on PE metadata characteristics.
@@ -10,6 +10,8 @@ tags:
     - attack.discovery
     - attack.reconnaissance
     - attack.t1590.001
+    - vigilant.pup
+    - vigilant.pup.spyware
 logsource:
     category: process_creation
     product: windows

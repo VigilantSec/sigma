@@ -12,6 +12,7 @@ tags:
     - attack.discovery
     - attack.reconnaissance
     - attack.t1590
+    - vigilant.disabled
 logsource:
     category: proxy
 detection:

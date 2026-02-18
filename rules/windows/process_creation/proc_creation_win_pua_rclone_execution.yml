@@ -19,6 +19,7 @@ modified: 2023-03-05
 tags:
     - attack.exfiltration
     - attack.t1567.002
+    - vigilant.disabled
 logsource:
     product: windows
     category: process_creation

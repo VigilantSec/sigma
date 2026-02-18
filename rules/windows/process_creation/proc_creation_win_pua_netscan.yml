@@ -1,4 +1,4 @@
-title: PUA - SoftPerfect Netscan Execution
+title: Monitoring Tool - SoftPerfect Netscan
 id: ca387a8e-1c84-4da3-9993-028b45342d30
 status: test
 description: |
@@ -17,6 +17,8 @@ date: 2024-04-25
 tags:
     - attack.discovery
     - attack.t1046
+    - vigilant.pup
+    - vigilant.pup.monitoring
 logsource:
     category: process_creation
     product: windows

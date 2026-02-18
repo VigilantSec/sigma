@@ -16,6 +16,7 @@ tags:
     - attack.t1021.002
     - attack.execution
     - attack.t1569.002
+    - vigilant.disabled
 logsource:
     product: windows
     category: pipe_created

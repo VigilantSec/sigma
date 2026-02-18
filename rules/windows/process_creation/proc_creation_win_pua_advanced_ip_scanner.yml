@@ -1,4 +1,4 @@
-title: PUA - Advanced IP Scanner Execution
+title: Monitoring Tool - Advanced IP Scanner
 id: bef37fa2-f205-4a7b-b484-0759bfd5f86f
 status: test
 description: Detects the use of Advanced IP Scanner. Seems to be a popular tool for ransomware groups.
@@ -16,6 +16,8 @@ tags:
     - attack.discovery
     - attack.t1046
     - attack.t1135
+    - vigilant.pup
+    - vigilant.pup.monitoring
 logsource:
     category: process_creation
     product: windows
