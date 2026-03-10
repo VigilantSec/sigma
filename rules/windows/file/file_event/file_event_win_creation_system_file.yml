@@ -8,7 +8,7 @@ references:
     - Internal Research
 author: Sander Wiebing, Tim Shelton, Nasreddine Bencherchali (Nextron Systems)
 date: 2020-05-26
-modified: 2025-10-07
+modified: 2026-02-04
 tags:
     - attack.defense-evasion
     - attack.t1036.005
@@ -39,6 +39,7 @@ detection:
             - 'explorer.exe'
             - 'extrac32.exe'
             - 'fontdrvhost.exe'
+            - 'fsquirt.exe' # was seen used by sidewinder APT - https://securelist.com/sidewinder-apt/114089/
             - 'ipconfig.exe'
             - 'iscsicli.exe'
             - 'iscsicpl.exe'
@@ -104,6 +105,11 @@ detection:
             - 'C:\Windows\SysWOW64\'
             - 'C:\Windows\WinSxS\'
             - 'C:\Windows\uus\'
+    filter_main_tiworker:
+        Image|endswith:
+            - '\TiWorker.exe'
+            - '\wuaucltcore.exe'
+        TargetFilename|startswith: 'C:\Windows\Temp\'
     filter_main_svchost:
         Image:
             - 'C:\Windows\system32\svchost.exe'
@@ -116,6 +122,7 @@ detection:
         Image:
             - 'C:\Windows\System32\wuauclt.exe'
             - 'C:\Windows\SysWOW64\wuauclt.exe'
+            - 'C:\Windows\UUS\arm64\wuaucltcore.exe'
     filter_main_explorer:
         file.directory: 'C:\Windows\explorer.exe'
     filter_main_msiexec:
@@ -140,3 +147,4 @@ falsepositives:
     - Third party software naming their software with the same names as the processes mentioned here
 # Note: Upgrade to high after an initial baseline to your environement.
 level: medium
+regression_tests_path: regression_data/rules/windows/file/file_event/file_event_win_creation_system_file/info.yml
