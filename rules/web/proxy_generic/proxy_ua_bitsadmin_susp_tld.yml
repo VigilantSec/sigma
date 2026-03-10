@@ -29,10 +29,6 @@ detection:
             - '.sfx.ms' # Microsoft domain, example request: https://oneclient.sfx.ms/PreSignInSettings/Prod/2022-08-15-21-xx-xx/PreSignInSettingsConfig.json
             - '.tscdn.m365.static.microsoft' # Microsoft Office CDN https://learn.microsoft.com/en-us/windows/deployment/do/delivery-optimization-endpoints
     condition: selection and not falsepositives
-fields:
-    - ClientIP
-    - c-uri
-    - c-useragent
 falsepositives:
     - Rare programs that use Bitsadmin and update from regional TLDs e.g. .uk or .ca
 level: high
