@@ -14,6 +14,7 @@ tags:
     - vigilant.exception.item.platform
     - vigilant.tuned
     - vigilant.tuned_date.02-19-25
+    - vigilant.disabled
 logsource:
     product: macos
     category: process_creation
