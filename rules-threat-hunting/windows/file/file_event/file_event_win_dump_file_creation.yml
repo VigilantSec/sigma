@@ -7,8 +7,8 @@ references:
 author: Nasreddine Bencherchali (Nextron Systems)
 date: 2023-09-07
 tags:
-    - attack.defense-evasion
     - detection.threat-hunting
+    - attack.stealth
     - vigilant.exception.list.application
     - vigilant.exception.item.platform
     - vigilant.exception.item.application

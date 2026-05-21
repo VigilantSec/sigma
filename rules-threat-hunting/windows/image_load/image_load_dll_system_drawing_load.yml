@@ -17,6 +17,8 @@ tags:
     - vigilant.exception.item.platform
     - vigilant.tuned
     - vigilant.tuned_date.02-19-25
+    - vigilant.disabled
+    - vigilant.note - too many different apps, too many different exceptions needed
 logsource:
     product: windows
     category: image_load
