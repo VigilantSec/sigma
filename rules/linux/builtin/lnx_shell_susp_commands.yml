@@ -13,6 +13,8 @@ modified: 2021-11-27
 tags:
     - attack.execution
     - attack.t1059.004
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.high_risk
 logsource:
     product: linux
 detection:

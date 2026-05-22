@@ -17,6 +17,7 @@ tags:
     - attack.t1053.005
     - attack.t1027
     - detection.emerging-threats
+    - vigilant.disabled
 logsource:
     category: process_creation
     product: windows

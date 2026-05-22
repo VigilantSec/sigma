@@ -11,6 +11,7 @@ tags:
     - attack.stealth
     - attack.t1036.005
     - detection.emerging-threats
+    - vigilant.disabled
 logsource:
     category: process_creation
     product: windows

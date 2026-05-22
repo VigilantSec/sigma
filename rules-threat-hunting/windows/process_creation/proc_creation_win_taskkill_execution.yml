@@ -15,6 +15,7 @@ tags:
     - attack.t1489
     - detection.threat-hunting
     - vigilant.exception.list.platform
+    - vigilant.disabled
 logsource:
     category: process_creation
     product: windows

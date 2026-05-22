@@ -11,6 +11,8 @@ date: 2025-08-02
 tags:
     - attack.reconnaissance
     - attack.t1595
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.high_risk
 logsource:
     category: proxy
 detection:

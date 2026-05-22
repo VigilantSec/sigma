@@ -14,6 +14,7 @@ tags:
     - attack.g0020
     - attack.t1041
     - detection.emerging-threats
+    - vigilant.disabled
 logsource:
     category: firewall
 detection:

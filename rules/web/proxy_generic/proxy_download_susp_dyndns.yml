@@ -11,6 +11,8 @@ tags:
     - attack.command-and-control
     - attack.t1105
     - attack.t1568
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.high_risk
 logsource:
     category: proxy
 detection:

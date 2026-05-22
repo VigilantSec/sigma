@@ -12,6 +12,7 @@ tags:
     - attack.t1007
     - detection.threat-hunting
     - vigilant.exception.list.platform
+    - vigilant.disabled
 logsource:
     category: process_creation
     product: windows

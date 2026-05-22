@@ -15,6 +15,7 @@ tags:
     - attack.stealth
     - attack.t1218.007
     - detection.threat-hunting
+    - vigilant.alerting.endpoint
 logsource:
     category: network_connection
     product: windows

@@ -20,6 +20,8 @@ tags:
     - attack.execution
     - attack.t1059.006
     - detection.threat-hunting
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.high_risk
 logsource:
     product: linux
     category: file_event

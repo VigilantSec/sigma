@@ -10,6 +10,8 @@ tags:
     - attack.credential-access
     - attack.t1552.006
     - detection.threat-hunting
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.high_risk
 logsource:
     category: file_access
     product: windows

@@ -14,6 +14,8 @@ tags:
     - attack.execution
     - attack.t1204.002
     - attack.t1036.005
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.passthrough
 logsource:
     category: proxy
 detection:

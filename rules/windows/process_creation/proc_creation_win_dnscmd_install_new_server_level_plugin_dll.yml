@@ -21,6 +21,7 @@ tags:
     - attack.defense-impairment
     - attack.t1574.001
     - attack.t1112
+    - vigilant.disabled
 logsource:
     category: process_creation
     product: windows

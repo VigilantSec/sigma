@@ -13,6 +13,7 @@ tags:
     - attack.defense-impairment
     - attack.t1685
     - detection.threat-hunting
+    - vigilant.disabled
 logsource:
     product: linux
     category: process_creation

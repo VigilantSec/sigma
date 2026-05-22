@@ -12,6 +12,7 @@ tags:
     - attack.execution
     - attack.t1106
     - detection.emerging-threats
+    - vigilant.disabled
 logsource:
     product: windows
     category: pipe_created
