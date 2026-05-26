@@ -23,6 +23,7 @@ tags:
     - attack.stealth
     - attack.t1564.004
     - detection.threat-hunting
+    - vigilant.disabled
 logsource:
     category: process_creation
     product: windows

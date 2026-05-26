@@ -11,6 +11,7 @@ tags:
     - attack.persistence
     - attack.exfiltration
     - attack.t1505.003
+    - vigilant.disabled
 logsource:
     category: webserver
 detection:

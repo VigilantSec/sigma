@@ -11,6 +11,8 @@ modified: 2021-11-27
 tags:
     - attack.command-and-control
     - attack.t1071.001
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.passthrough
 logsource:
     category: proxy
 detection:

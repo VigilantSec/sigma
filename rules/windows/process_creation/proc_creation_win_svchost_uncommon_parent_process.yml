@@ -10,6 +10,8 @@ modified: 2022-06-28
 tags:
     - attack.stealth
     - attack.t1036.005
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.high_risk
 logsource:
     category: process_creation
     product: windows

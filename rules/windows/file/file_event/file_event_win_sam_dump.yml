@@ -14,6 +14,7 @@ modified: 2023-01-05
 tags:
     - attack.credential-access
     - attack.t1003.002
+    - vigilant.disabled
 logsource:
     product: windows
     category: file_event

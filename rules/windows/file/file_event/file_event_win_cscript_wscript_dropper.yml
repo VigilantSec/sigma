@@ -14,6 +14,8 @@ tags:
     - attack.execution
     - attack.t1059.005
     - attack.t1059.007
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.passthrough
 logsource:
     category: file_event
     product: windows

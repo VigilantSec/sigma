@@ -22,6 +22,8 @@ tags:
     - attack.privilege-escalation
     - attack.stealth
     - attack.t1055
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.passthrough
 logsource:
     product: windows
     category: pipe_created

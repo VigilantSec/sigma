@@ -12,6 +12,8 @@ modified: 2024-02-26
 tags:
     - attack.initial-access
     - detection.threat-hunting
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.high_risk
 logsource:
     category: proxy
 detection:

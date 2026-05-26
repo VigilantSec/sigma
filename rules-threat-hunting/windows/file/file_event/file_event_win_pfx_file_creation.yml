@@ -21,6 +21,7 @@ tags:
     - attack.t1552.004
     - detection.threat-hunting
     - vigilant.exception.list.application
+    - vigilant.disabled
 logsource:
     product: windows
     category: file_event

@@ -16,6 +16,7 @@ modified: 2026-02-12
 tags:
     - attack.stealth
     - attack.t1036
+    - vigilant.alerting.endpoint
 logsource:
     category: process_creation
     product: windows

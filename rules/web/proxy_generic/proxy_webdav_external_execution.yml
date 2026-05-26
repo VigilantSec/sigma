@@ -18,6 +18,8 @@ tags:
     - attack.resource-development
     - attack.t1584
     - attack.t1566
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.passthrough
 logsource:
     category: proxy
 detection:

@@ -12,6 +12,7 @@ tags:
     - vigilant.exception.list.application
     - vigilant.exception.item.platform
     - vigilant.exception.item.application
+    - vigilant.disabled
 logsource:
     category: file_event
     product: windows

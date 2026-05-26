@@ -15,6 +15,7 @@ tags:
     - attack.t1102.002
     - attack.t1090.004
     - detection.threat-hunting
+    - vigilant.disabled
 logsource:
     category: network_connection
     product: windows

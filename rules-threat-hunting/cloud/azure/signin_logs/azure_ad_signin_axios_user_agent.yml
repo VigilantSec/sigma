@@ -19,6 +19,7 @@ tags:
     - attack.collection
     - attack.t1557
     - detection.threat-hunting
+    - vigilant.disabled
 logsource:
     product: azure
     service: signinlogs

@@ -11,6 +11,8 @@ modified: 2025-12-10
 tags:
     - attack.command-and-control
     - attack.t1105
+    - vigilant.disabled
+    - vigilant.noisy
 logsource:
     category: network_connection
     product: windows

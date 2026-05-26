@@ -10,6 +10,7 @@ modified: 2022-10-31
 tags:
     - attack.command-and-control
     - attack.t1071.001
+    - vigilant.disabled
 logsource:
     category: proxy
 detection:

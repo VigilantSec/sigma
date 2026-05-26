@@ -10,6 +10,7 @@ modified: 2022-11-27
 tags:
     - attack.discovery
     - attack.t1087.001
+    - vigilant.disabled
 logsource:
     category: process_creation
     product: macos
