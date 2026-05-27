@@ -12,6 +12,7 @@ modified: 2026-04-27
 tags:
     - attack.initial-access
     - attack.t1566
+    - vigilant.disabled # in favor of elastic's identical rule with the same rule_id
 logsource:
     product: okta
     service: okta
