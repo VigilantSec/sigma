@@ -17,7 +17,7 @@ logsource:
 detection:
     selection:
         eventType: 'user.session.start'
-        securityContext.isProxy: 'true'
+        securityContext.isProxy: true
     condition: selection
 falsepositives:
     - If a user requires an anonymising proxy due to valid justifications.
