@@ -10,6 +10,8 @@ modified: 2023-08-17
 tags:
     - attack.defense-impairment
     - attack.t1685
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Microsoft Windows Defender Tampering (fe794edd-487f-4a90-b285-3ee54f2af2d3)
 logsource:
     category: registry_set
     product: windows

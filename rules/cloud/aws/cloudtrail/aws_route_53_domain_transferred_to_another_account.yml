@@ -12,6 +12,8 @@ tags:
     - attack.credential-access
     - attack.privilege-escalation
     - attack.t1098
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] AWS Route 53 Domain Transferred to Another Account (2045567e-b0af-444a-8c0b-0b6e2dae9e13)
 logsource:
     product: aws
     service: cloudtrail

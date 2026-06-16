@@ -10,6 +10,8 @@ date: 2021-08-23
 modified: 2022-10-09
 tags:
     - attack.exfiltration
+    - vigilant.alerting.exfil
+    - vigilant.alerting.passthrough
 logsource:
     service: threat_management
     product: m365

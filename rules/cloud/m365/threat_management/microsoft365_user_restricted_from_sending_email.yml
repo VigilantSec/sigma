@@ -11,6 +11,8 @@ modified: 2022-10-09
 tags:
     - attack.initial-access
     - attack.t1199
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Deprecated - M365 Security Compliance User Restricted from Sending Email (0136b315-b566-482f-866c-1d8e2477ba16)
 logsource:
     service: threat_management
     product: m365

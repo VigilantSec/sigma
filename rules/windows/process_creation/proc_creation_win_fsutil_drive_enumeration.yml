@@ -11,6 +11,8 @@ modified: 2022-07-14
 tags:
     - attack.discovery
     - attack.t1120
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Peripheral Device Discovery (0c7ca5c2-728d-4ad9-b1c5-bbba83ecb1f4)
 logsource:
     category: process_creation
     product: windows

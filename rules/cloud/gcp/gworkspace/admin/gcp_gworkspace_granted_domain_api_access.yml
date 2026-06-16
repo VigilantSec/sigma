@@ -14,6 +14,8 @@ tags:
     - attack.t1098
     - vigilant.alerting.passthrough
     - vigilant.alerting.sensitive_environment_changes
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Google Workspace API Access Granted via Domain-Wide Delegation (acbc8bb9-2486-49a8-8779-45fb5f9a93ee)
 logsource:
     product: gcp
     service: google_workspace.admin

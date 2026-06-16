@@ -11,6 +11,9 @@ tags:
     - attack.impact
     - attack.defense-impairment
     - attack.t1686.001
+    - vigilant.alerting.sensitive_environment_changes
+    - vigilant.alerting.passthrough
+    - NOTE - If this becomes noisy due to modifications replace with [ELASTIC] Azure VNet Firewall Front Door WAF Policy Deleted (09d028a5-dcde-409f-8ae0-557cef1b7082)
 logsource:
     product: azure
     service: activitylogs

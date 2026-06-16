@@ -9,6 +9,8 @@ date: 2021-08-16
 modified: 2022-08-23
 tags:
     - attack.impact
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Azure Diagnostic Settings Alert Suppression Rule Created or Modified (f0bc081a-2346-4744-a6a4-81514817e888)
 logsource:
     product: azure
     service: activitylogs

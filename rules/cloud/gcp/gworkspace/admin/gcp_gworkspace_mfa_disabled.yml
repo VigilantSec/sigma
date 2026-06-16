@@ -11,8 +11,8 @@ date: 2021-08-26
 modified: 2023-10-11
 tags:
     - attack.impact
-    - vigilant.alerting.passthrough
-    - vigilant.alerting.sensitive_environment_changes
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Google Workspace MFA Enforcement Disabled (cad4500a-abd7-4ef3-b5d3-95524de7cfe1)
 logsource:
     product: gcp
     service: google_workspace.admin

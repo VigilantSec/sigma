@@ -10,6 +10,8 @@ modified: 2022-10-09
 tags:
     - attack.impact
     - attack.t1485
+    - vigilant.disabled
+    - DISABLED.NOTE - Too noisy, deprecated in detection-rules but not here so disabling manually
 logsource:
     product: aws
     service: cloudtrail

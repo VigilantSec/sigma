@@ -16,6 +16,8 @@ tags:
     - attack.t1485
     - attack.t1496
     - attack.t1489
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Azure Kubernetes Services (AKS) Kubernetes Rolebindings Created (1c966416-60c1-436b-bfd0-e002fddbfd89)
 logsource:
     product: azure
     service: activitylogs

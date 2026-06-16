@@ -12,6 +12,8 @@ tags:
     - attack.credential-access
     - attack.t1552
     - attack.t1552.001
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Azure Key Vault Modified (792dd7a6-7e00-4a0a-8a9a-a7c24720b5ec)
 logsource:
     product: azure
     service: activitylogs
