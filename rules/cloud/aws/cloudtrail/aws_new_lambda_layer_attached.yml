@@ -13,6 +13,8 @@ date: 2021-09-23
 modified: 2025-03-17
 tags:
     - attack.privilege-escalation
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] AWS Lambda Layer Added to Existing Function (7d091a76-0737-11ef-8469-f661ea17fbcc)
 logsource:
     product: aws
     service: cloudtrail

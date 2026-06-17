@@ -16,6 +16,8 @@ tags:
     - attack.initial-access
     - attack.stealth
     - attack.t1078.004
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Entra ID Elevated Access to User Access Administrator (8d9c4128-372a-11f0-9d8f-f661ea17fbcd)
 logsource:
     product: azure
     service: activitylogs

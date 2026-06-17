@@ -14,6 +14,8 @@ tags:
     - attack.privilege-escalation
     - attack.credential-access
     - attack.t1098
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] AWS Route 53 Domain Transfer Lock Disabled (12051077-0124-4394-9522-8f4f4db1d674)
 logsource:
     product: aws
     service: cloudtrail

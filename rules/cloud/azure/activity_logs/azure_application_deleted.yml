@@ -10,6 +10,8 @@ modified: 2022-10-09
 tags:
     - attack.impact
     - attack.t1489
+    - vigilant.disabled
+    - DISABLED.NOTE - Not strong enough detection logic 
 logsource:
     product: azure
     service: activitylogs

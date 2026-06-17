@@ -13,6 +13,8 @@ tags:
     - attack.initial-access
     - attack.stealth
     - attack.t1078
+    - vigilant.alerting.initial_access
+    - vigilant.alerting.high_risk
 logsource:
     product: azure
     service: signinlogs

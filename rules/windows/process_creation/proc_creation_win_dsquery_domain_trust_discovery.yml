@@ -16,6 +16,8 @@ modified: 2023-02-02
 tags:
     - attack.discovery
     - attack.t1482
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Enumerating Domain Trusts via DSQUERY.EXE (06a7a03c-c735-47a6-a313-51c354aef6c3)
 logsource:
     category: process_creation
     product: windows

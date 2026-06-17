@@ -1,7 +1,9 @@
 title: Azure Network Firewall Policy Modified or Deleted
 id: 83c17918-746e-4bd9-920b-8e098bf88c23
 status: test
-description: Identifies when a Firewall Policy is Modified or Deleted.
+description: |
+    Identifies when a Firewall Policy is Modified or Deleted.
+    VIGILANT NOTE - If this becomes noisy due to modifications replace with [ELASTIC] Azure VNet Firewall Front Door WAF Policy Deleted (09d028a5-dcde-409f-8ae0-557cef1b7082)
 references:
     - https://learn.microsoft.com/en-us/azure/role-based-access-control/resource-provider-operations
 author: Austin Songer @austinsonger
@@ -11,6 +13,8 @@ tags:
     - attack.impact
     - attack.defense-impairment
     - attack.t1686.001
+    - vigilant.alerting.sensitive_environment_changes
+    - vigilant.alerting.passthrough
 logsource:
     product: azure
     service: activitylogs

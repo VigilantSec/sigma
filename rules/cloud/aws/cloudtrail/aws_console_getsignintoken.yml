@@ -13,6 +13,8 @@ tags:
     - attack.lateral-movement
     - attack.t1021.007
     - attack.t1550.001
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] AWS Sign-In Token Created (f754e348-f36f-4510-8087-d7f29874cc12)
 logsource:
     product: aws
     service: cloudtrail

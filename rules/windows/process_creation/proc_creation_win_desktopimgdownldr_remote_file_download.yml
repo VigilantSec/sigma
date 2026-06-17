@@ -9,6 +9,8 @@ date: 2022-09-27
 tags:
     - attack.command-and-control
     - attack.t1105
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Remote File Download via Desktopimgdownldr Utility (15c0b7a7-9c34-4869-b25b-fa6518414899)
 logsource:
     category: process_creation
     product: windows

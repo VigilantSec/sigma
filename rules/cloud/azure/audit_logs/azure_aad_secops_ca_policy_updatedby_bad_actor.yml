@@ -14,6 +14,8 @@ tags:
     - attack.defense-impairment
     - attack.t1548
     - attack.t1556
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Entra ID Conditional Access Policy (CAP) Modified (bc48bba7-4a23-4232-b551-eca3ca1e3f20)
 logsource:
     product: azure
     service: auditlogs

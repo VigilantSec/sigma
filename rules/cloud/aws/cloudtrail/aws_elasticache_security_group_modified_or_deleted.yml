@@ -10,6 +10,8 @@ modified: 2022-10-09
 tags:
     - attack.impact
     - attack.t1531
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] AWS EC2 Security Group Configuration Change (29052c19-ff3e-42fd-8363-7be14d7c5469)
 logsource:
     product: aws
     service: cloudtrail

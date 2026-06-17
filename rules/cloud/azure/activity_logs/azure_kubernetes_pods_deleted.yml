@@ -10,6 +10,8 @@ date: 2021-07-24
 modified: 2022-08-23
 tags:
     - attack.impact
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Azure Kubernetes Services (AKS) Kubernetes Pods Deleted (83a1931d-8136-46fc-b7b9-2db4f639e014)
 logsource:
     product: azure
     service: activitylogs

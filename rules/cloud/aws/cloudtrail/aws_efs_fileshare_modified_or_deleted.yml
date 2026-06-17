@@ -12,6 +12,8 @@ date: 2021-08-15
 modified: 2022-10-09
 tags:
     - attack.impact
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] AWS EFS File System Deleted (536997f7-ae73-447d-a12d-bff1e8f5f0a0)
 logsource:
     product: aws
     service: cloudtrail

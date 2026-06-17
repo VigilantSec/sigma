@@ -13,7 +13,7 @@ tags:
     - attack.initial-access
     - attack.stealth
     - attack.t1078
-    - vigilant.alerting.sensitive_environment_changes
+    - vigilant.alerting.passthrough
     - vigilant.alerting.high_risk
 logsource:
     product: azure

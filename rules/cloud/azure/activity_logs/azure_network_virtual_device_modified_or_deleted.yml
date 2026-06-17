@@ -11,6 +11,8 @@ date: 2021-08-08
 modified: 2022-08-23
 tags:
     - attack.impact
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH ELASTIC RULES - 323cb487-279d-4218-bcbd-a568efe930c6, e02bd3ea-72c6-4181-ac2b-0f83d17ad969, 09d028a5-dcde-409f-8ae0-557cef1b7082, 3ad77ed4-4dcf-4c51-8bfc-e3f7ce316b2f
 logsource:
     product: azure
     service: activitylogs

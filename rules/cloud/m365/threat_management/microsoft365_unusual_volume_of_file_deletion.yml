@@ -11,6 +11,8 @@ modified: 2022-10-09
 tags:
     - attack.impact
     - attack.t1485
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] Deprecated - M365 Security Compliance Unusual Volume of File Deletion (b2951150-658f-4a60-832f-a00d1e6c6745)
 logsource:
     service: threat_management
     product: m365
