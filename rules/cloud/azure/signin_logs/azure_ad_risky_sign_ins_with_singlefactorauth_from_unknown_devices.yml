@@ -15,6 +15,8 @@ tags:
     - attack.t1078
     - vigilant.alerting.high_risk
     - vigilant.alerting.initial_access
+    - vigilant.prefilter.exclude_vpn
+    - vigilant.prefilter.exclude_proxy
 logsource:
     product: azure
     service: signinlogs
