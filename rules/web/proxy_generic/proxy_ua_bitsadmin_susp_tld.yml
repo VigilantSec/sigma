@@ -31,6 +31,15 @@ detection:
             - '.scdn.co' # spotify streaming
             - '.sfx.ms' # Microsoft domain, example request: https://oneclient.sfx.ms/PreSignInSettings/Prod/2022-08-15-21-xx-xx/PreSignInSettingsConfig.json
             - '.tscdn.m365.static.microsoft' # Microsoft Office CDN https://learn.microsoft.com/en-us/windows/deployment/do/delivery-optimization-endpoints
+        destination.ip|cidr:
+            - '10.0.0.0/8'
+            - '172.16.0.0/12'
+            - '192.168.0.0/16'
+            - '127.0.0.0/8'
+            - '169.254.0.0/16'
+            - '::1/128'
+            - 'fe80::/10'
+            - 'fc00::/7'
     condition: selection and not falsepositives
 falsepositives:
     - Rare programs that use Bitsadmin and update from regional TLDs e.g. .uk or .ca
