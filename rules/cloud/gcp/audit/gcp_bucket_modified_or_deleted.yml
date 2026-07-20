@@ -9,6 +9,8 @@ date: 2021-08-14
 modified: 2022-10-09
 tags:
     - attack.impact
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] GCP Storage Bucket Deletion (bc0f2d83-32b8-4ae2-b0e6-6a45772e9331), [ELASTIC] GCP Storage Bucket Configuration Modification (97359fd8-757d-4b1d-9af1-ef29e4a8680e)
 logsource:
     product: gcp
     service: gcp.audit
