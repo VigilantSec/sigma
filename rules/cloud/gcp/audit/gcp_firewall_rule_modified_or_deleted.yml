@@ -11,6 +11,8 @@ modified: 2022-10-09
 tags:
     - attack.defense-impairment
     - attack.t1685
+    - vigilant.disabled
+    - DISABLED.NOTE - DUE TO OVERLAP WITH [ELASTIC] GCP Firewall Rule Creation (30562697-9859-4ae0-a8c5-dab45d664170), [ELASTIC] GCP Firewall Rule Deletion (ff9b571e-61d6-4f6c-9561-eb4cca3bafe1), [ELASTIC] GCP Firewall Rule Modification (2783d84f-5091-4d7d-9319-9fceda8fa71b)
 logsource:
     product: gcp
     service: gcp.audit
