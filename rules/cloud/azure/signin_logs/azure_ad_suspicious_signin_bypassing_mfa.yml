@@ -17,6 +17,7 @@ tags:
     - attack.t1110
     - vigilant.alerting.passthrough
     - vigilant.alerting.initial_access
+    - vigilant.prefilter.trusted_ip
 logsource:
     product: azure
     service: signinlogs

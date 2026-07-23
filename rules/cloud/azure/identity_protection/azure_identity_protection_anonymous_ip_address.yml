@@ -12,6 +12,7 @@ tags:
     - attack.credential-access
     - vigilant.alerting.initial_access
     - vigilant.alerting.high_risk
+    - vigilant.prefilter.trusted_ip
 logsource:
     product: azure
     service: riskdetection
