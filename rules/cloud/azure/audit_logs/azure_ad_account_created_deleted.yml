@@ -23,7 +23,7 @@ detection:
         properties.message:
             - Add user
             - Delete user
-        Status: success
+        Status: Success
     condition: selection
 falsepositives:
     - Legit administrative action

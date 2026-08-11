@@ -24,7 +24,7 @@ detection:
         properties.message|contains|all:
             - Add user
             - Add member to role
-        Status: success
+        Status: Success
     condition: selection
 falsepositives:
     - A legitimate new admin account being created

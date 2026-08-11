@@ -22,7 +22,7 @@ logsource:
 detection:
     selection_usertype:
         userIdentity.type: Root
-        Status: success
+        status: success
     selection_eventtype:
         eventType: AwsServiceEvent
     condition: selection_usertype and not selection_eventtype
