@@ -14,6 +14,7 @@ tags:
     - attack.stealth
     - attack.t1078
     - vigilant.alerting.sensitive_environment_changes
+    - vigilant.prefilter.trusted_ip
 logsource:
     product: azure
     service: auditlogs
@@ -22,7 +23,7 @@ detection:
         properties.message:
             - Add user
             - Delete user
-        Status: Success
+        Status: success
     condition: selection
 falsepositives:
     - Legit administrative action
