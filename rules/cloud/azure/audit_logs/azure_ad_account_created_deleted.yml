@@ -14,6 +14,7 @@ tags:
     - attack.stealth
     - attack.t1078
     - vigilant.alerting.sensitive_environment_changes
+    - vigilant.prefilter.trusted_ip
 logsource:
     product: azure
     service: auditlogs
