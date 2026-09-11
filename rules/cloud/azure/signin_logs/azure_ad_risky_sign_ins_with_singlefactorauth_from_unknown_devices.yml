@@ -13,11 +13,7 @@ tags:
     - attack.initial-access
     - attack.stealth
     - attack.t1078
-    - vigilant.alerting.high_risk
-    - vigilant.alerting.initial_access
-    - vigilant.prefilter.exclude_vpn
-    - vigilant.prefilter.exclude_proxy
-    - vigilant.prefilter.trusted_ip
+    - vigilant.disabled
 logsource:
     product: azure
     service: signinlogs
