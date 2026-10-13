@@ -8,7 +8,7 @@ references:
     - Internal Research
 author: Sander Wiebing, Tim Shelton, Nasreddine Bencherchali (Nextron Systems)
 date: 2020-05-26
-modified: 2026-02-04
+modified: 2026-07-28
 tags:
     - attack.stealth
     - attack.t1036.005
@@ -124,24 +124,38 @@ detection:
             - 'C:\Windows\SysWOW64\wuauclt.exe'
             - 'C:\Windows\UUS\arm64\wuaucltcore.exe'
     filter_main_explorer:
-        file.directory: 'C:\Windows\explorer.exe'
+        file.directory: 'C:\Windows'
+        file.name: 'explorer.exe'
     filter_main_msiexec:
         # This filter handles system processes who are updated/installed using misexec.
-        Image:
-            - 'C:\WINDOWS\system32\msiexec.exe'
-            - 'C:\WINDOWS\SysWOW64\msiexec.exe'
         # Add more processes if you find them or simply filter msiexec on its own. If the list grows big
-        file.directory|startswith:
-            - 'C:\Program Files\PowerShell\7\pwsh.exe'
-            - 'C:\Program Files\PowerShell\7-preview\pwsh.exe'
-            - 'C:\Program Files\WindowsApps\Microsoft.PowerShellPreview\'
+        - Image:
+              - 'C:\WINDOWS\system32\msiexec.exe'
+              - 'C:\WINDOWS\SysWOW64\msiexec.exe'
+          file.name: 'pwsh.exe'
+          file.directory:
+              - 'C:\Program Files\PowerShell\7'
+              - 'C:\Program Files\PowerShell\7-preview'
+        - Image:
+              - 'C:\WINDOWS\system32\msiexec.exe'
+              - 'C:\WINDOWS\SysWOW64\msiexec.exe'
+          file.directory|startswith: 'C:\Program Files\WindowsApps\Microsoft.PowerShellPreview\'
     filter_main_healtray:
         file.directory|startswith: 'C:\Windows\System32\SecurityHealth\'
         file.name: 'SecurityHealthSystray.exe'
         Image|endswith: '\SecurityHealthSetup.exe'
     filter_main_event_action_deletion:
         event.type: 'deletion'
-    condition: selection and not 1 of filter_main_*
+    filter_optional_wslhost:
+        - file.directory|startswith: 'C:\Program Files\WSL\'
+          file.name: 'wslhost.exe'
+        - file.directory|contains: 'C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_'
+          file.name: 'wslhost.exe'
+        - file.directory|contains|all:
+              - 'C:\Users\'
+              - '\AppData\Local\Microsoft\WindowsApps\'
+          file.name: 'wslhost.exe'
+    condition: selection and not 1 of filter_main_* and not 1 of filter_optional_*
 falsepositives:
     - System processes copied outside their default folders for testing purposes
     - Third party software naming their software with the same names as the processes mentioned here
