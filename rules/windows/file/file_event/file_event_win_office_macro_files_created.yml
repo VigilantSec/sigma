@@ -16,6 +16,7 @@ tags:
     - attack.t1566.001
     - vigilant.exception.list.application
     - vigialnt.exception.list.tenant
+    - vigilant.disabled
 logsource:
     category: file_event
     product: windows

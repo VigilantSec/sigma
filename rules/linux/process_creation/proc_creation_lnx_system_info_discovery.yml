@@ -10,6 +10,7 @@ modified: 2021-09-14
 tags:
     - attack.discovery
     - attack.t1082
+    - vigilant.disabled
 logsource:
     product: linux
     category: process_creation

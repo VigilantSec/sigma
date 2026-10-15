@@ -12,6 +12,8 @@ tags:
     - vigilant.exception.list.appplication
     - vigilant.exception.list.tenant
     - vigilant.exception.list.platform
+    - vigilant.disabled
+    - vigilant.noisy
 logsource:
     product: windows
     category: file_event

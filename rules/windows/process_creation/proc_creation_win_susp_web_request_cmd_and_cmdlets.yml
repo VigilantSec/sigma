@@ -22,6 +22,7 @@ tags:
     - attack.execution
     - attack.t1059.001
     - vigilant.exception.list.platform
+    - vigilant.disabled
 logsource:
     category: process_creation
     product: windows

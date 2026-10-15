@@ -13,6 +13,8 @@ tags:
     - attack.t1003
     - attack.t1003.003
     - attack.s0404
+    - vigilant.alerting.endpoint
+    - vigilant.alerting.high_risk
 logsource:
     category: process_creation
     product: windows
