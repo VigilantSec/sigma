@@ -18,6 +18,7 @@ tags:
     - vigilant.prefilter.exclude_vpn
     - vigilant.prefilter.exclude_proxy
     - vigilant.prefilter.trusted_ip
+    - vigilant.disabled
 logsource:
     product: azure
     service: signinlogs
