@@ -13,6 +13,7 @@ tags:
     - attack.persistence
     - attack.privilege-escalation
     - attack.initial-access
+    - vigilant.disabled
 logsource:
     product: azure
     service: riskdetection
